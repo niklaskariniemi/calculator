@@ -3,9 +3,11 @@
 }
 
 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: blanchedalmond;
     height: 64px;
     width: 64px;
-    margin: 2px;
     border-radius: 7px;
 }
