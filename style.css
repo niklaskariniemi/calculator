@@ -2,6 +2,21 @@
     box-sizing: border-box;
 }
 
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 265px;
+    border-radius: 7px;
+    margin-bottom: 3px;
+}
+
 .keypad {
     display: grid;
     grid-template-columns: repeat(4, 64px [col-start]);
